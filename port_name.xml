@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config>
+
+	<segment protocol="TCP" port="80"   name="HTTP"> </segment>
+	<segment protocol="TCP" port="8080" name="HTTP"> </segment>
+	<segment protocol="TCP" port="443"  name="HTTPS"> </segment>
+	
+	<segment protocol="UDP" port="53"   name="DNS">  </segment>
+
+	<segment protocol="UDP" port="8000" name="QQ"> </segment>
+	<segment protocol="TCP" port="3306" name="MySQL"> </segment>
+	
+	<segment protocol="TCP" port="25" name="SMTP"> </segment>
+	<segment protocol="TCP" port="465" name="SMTP"> </segment>
+	
+	<segment protocol="TCP" port="143" name="IMAP"> </segment>
+	<segment protocol="TCP" port="993" name="IMAP"> </segment>
+	
+</config>
